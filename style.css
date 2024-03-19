@@ -53,10 +53,17 @@ a{
   font-weight: bold;
 }
 span{
-  background-color:  #F6F6F6;
+  background-color: #F6F6F6;
+  font-size: 12px;
   border-radius: 4px;
-
+  padding: 4px;
   
+}
+h4{
+  font-size: 18px;
+}
+aside .palavra-aside{
+  font-size: 14px;
 }
 aside{
     width: 30%;
@@ -67,6 +74,7 @@ aside{
   gap: 17px;
   cursor: pointer;
 }
+
 .lateral{
     display: flex;
     flex-direction: column;
@@ -79,9 +87,11 @@ aside{
   gap: 17px;
 }
  footer h2{
-     color: #F3F4F5;
+    font-size: 20px;
+    color: #F3F4F5;
 }
 footer{
+  position: absolute none;
   background-color: black;
     
 }
