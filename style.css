@@ -22,10 +22,10 @@ main{
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 22px;
-  height: fit-content;
+  height:fit-content;
 }
 .content{
-  height: 100%;
+  height: calc(100vh - 163px);
   display: flex;
   padding-top:41px;
   overflow: auto;
